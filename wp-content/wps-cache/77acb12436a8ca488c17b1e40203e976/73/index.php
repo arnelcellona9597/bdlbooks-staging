@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"73041cb01cc8217338ceaa880bc3911c":{"expires":1737552984,"size":485,"file":"73041cb01cc8217338ceaa880bc3911c.php","created":1737549384,"lifespan":3600,"hash":"885da61f"},"738227c4c78879b631e1e02254527217":{"expires":1737560841,"size":485,"file":"738227c4c78879b631e1e02254527217.php","created":1737557241,"lifespan":3600,"hash":"885da61f"}}

@@ -1,0 +1,187 @@
+@import '../../../libraries/wp-conditions/assets/css/wp-conditions';
+
+@mixin transition($duration) {
+	-webkit-transition: $duration;
+	-moz-transition: $duration;
+	-ms-transition: $duration;
+	-o-transition: $duration;
+	transition: $duration;
+}
+
+/* Title field style */
+.wapl-title-text-wrap {
+    margin-right: 300px;
+    min-width: 763px;
+
+	@media only screen and (max-width: 850px) {
+		width: 100%;
+		margin-right: 0;
+		min-width: 0;
+	}
+}
+.wapl-title-text {
+    padding: 3px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: none;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+
+.wapl-meta-box {
+	display: flex;
+	flex-direction: row;
+}
+.wapl-column {
+	display: inline-block;
+	height: 100%;
+	margin-right: 2%;
+	vertical-align: top;
+}
+.wapl-meta-box label {
+	display: inline-block;
+	width: 150px;
+
+	@media (max-width: 850px) {
+		width: 100%;
+	}
+}
+.wapl-meta-box input,
+.wapl-meta-box select {
+	width: 225px;
+	max-width: 100%;
+}
+
+/* Label settings */
+
+.wp-picker-container input,
+.wp-picker-container label {
+	width: auto;
+}
+.wp-picker-container, .wp-picker-container:active {
+	display: inline-block;
+}
+
+.wapl-toggle-advanced {
+	cursor: pointer;
+}
+
+// Fix for collapsing 2 columns when below 850px
+@media only screen and (max-width: 850px) {
+	#poststuff {
+		min-width: 763px;
+	}
+}
+
+/*******************
+ * Preview
+ ******************/
+
+h2.wapl-preview-title {
+	margin-top: 5px !important;
+	padding-left: 0 !important;
+}
+#wapl-global-preview,
+#wapl-label-preview {
+	position: relative;
+	display: inline-block;
+}
+.label-wrap {
+	float: none !important;
+}
+.wapl-label.wapl-alignright {
+	float: none;
+	text-align: right;
+}
+.wapl-label.wapl-alignleft {
+	float: none;
+	text-align: left;
+}
+.wapl-label.wapl-aligncenter {
+	margin: initial;
+	float: none;
+	text-align: center;
+}
+#woocommerce_advanced_product_labels #wapl-label-preview p {
+	padding-left: 0px;
+}
+
+.label-wrap.wapl-aligncustom {
+	pointer-events: initial;
+	cursor: move;
+}
+
+.label-color-custom {
+	.color-custom-hidden {
+		display: none;
+	}
+	.color-custom-show {
+		display: block;
+	}
+}
+.color-custom-hidden {
+	display: initial;
+}
+.color-custom-show {
+	display: none;
+}
+.type-custom-hidden {
+	display: block;
+}
+.type-custom .type-custom-hidden {
+	display: none;
+}
+.type-custom-show {
+	display: none;
+}
+.type-custom .type-custom-show {
+	display: block;
+}
+.align-custom-show {
+	display: none;
+}
+.align-custom .align-custom-show {
+	display: block;
+}
+
+/**********************
+ * Product Label
+ *********************/
+#woocommerce_advanced_product_labels .options_group input[type='text'],
+#woocommerce_advanced_product_labels .options_group select {
+	width: 50% !important;
+}
+@media all and (max-width: 1281px) {
+	#woocommerce_advanced_product_labels .options_group input[type='text'],
+	#woocommerce_advanced_product_labels .options_group select {
+		width: 100% !important;
+	}
+}
+
+/* Hide visibility from admin */
+.post-type-wapl .misc-pub-visibility#visibility {
+	display: none;
+}
+
+
+.show-if-advanced {
+	display: none;
+}
+.advanced-enabled ~ .show-if-advanced {
+	display: unset;
+}
+
+.CodeMirror {
+	min-height: 100px;
+	height: fit-content !important
+}
+
+.product-label:active,
+.product-label:focus {
+	//border-color: #2271b1;
+    color: #0a4b78;
+    box-shadow: 0 0 0 1px #2271b1;
+}

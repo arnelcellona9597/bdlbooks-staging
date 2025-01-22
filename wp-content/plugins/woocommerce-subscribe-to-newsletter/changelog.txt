@@ -1,0 +1,346 @@
+*** Subscribe to Newsletter Changelog ***
+
+2024-03-25 - version 4.1.1
+* Feature - ActiveTrail: push subscriber phone number when available.
+* Tweak - Update brand to Kestrel.
+
+2024-01-11 - version 4.1.0
+* Feature - Added compatibility with the WooCommerce Cart and Checkout blocks.
+* Tweak - Hide the 'Checkout location' setting when using the Checkout block.
+* Tweak - Updated the plugin URLs to the new woo.com domain.
+* Tweak - Updated plugin author.
+* Tweak - Tested compatibility up to WC 8.5.
+* Tweak - Tested compatibility up to WP 6.4.
+* Dev - Updated the minimum requirements to WC 4.0, WP 5.0, and PHP 7.0.
+
+2023-07-24 - version 4.0.0
+* Feature - Manage the Mailchimp newsletter subscription from the "My Account" page.
+* Tweak - MailPoet 2 provider has been marked as deprecated.
+* Tweak - Added link to get support in the plugin list.
+* Tweak - Open the documentation link in a new tab.
+* Tweak - Tested compatibility with WP 6.3.
+* Dev - Dropped deprecated plugin code on versions 3.x.
+* Dev - Dropped `Campaign Monitor` API client.
+* Dev - Dropped deprecated filter hook `wc_newsletter_subscription_checkout_content_location`.
+* Dev - Dropped deprecated filter hook `woocommerce_newsletter_mailchimp_api_request`.
+* Dev - Updated the minimum requirements to WC 3.7, WP 4.9, and PHP 5.6.
+
+2023-07-19 - version 3.7.0
+* Feature - Sendinblue is now Brevo.
+* Tweak - Tested compatibility up to WC 7.9.
+* Tweak - Tested compatibility with WP 6.2.
+* Dev - Dropped `woo-includes/` files.
+
+2023-01-30 - version 3.6.0
+* Feature - Tags subscribers with the purchased products (Mailchimp and Sendinblue only).
+* Tweak - Tested compatibility with WC 7.3.
+
+2022-12-19 - version 3.5.1
+* Tweak - Declare compatibility with WooCommerce High-Performance Order Storage (HPOS).
+* Tweak - Tested compatibility up to WC 7.2.
+* Tweak - Tested compatibility with WP 6.1.
+
+2022-07-14 - version 3.5.0
+* Feature - New provider: ActiveCampaign.
+* Tweak - Delete Sendinblue credentials on plugin delete.
+* Tweak - Tested compatibility up to WC 6.7.
+
+2022-05-23 - version 3.4.0
+* Feature - New provider: Sendinblue.
+* Tweak - Tested compatibility with WP 6.0.
+
+2022-04-27 - version 3.3.6
+* Tweak - Tested compatibility up to WC 6.5.
+
+2022-01-05 - version 3.3.5
+* Feature - Include in the email sent to the admin whether the user was subscribed during registration.
+* Tweak - Tested compatibility with WC 6.1.
+* Tweak - Tested compatibility with WP 5.9.
+
+2021-12-15 - version 3.3.4
+* Tweak - Tested compatibility with WC 6.0.
+
+2021-10-27 - version 3.3.3
+* Tweak - Added plugin info to the WooCommerce System Status Report.
+* Tweak - Tested compatibility up to WC 5.9.
+
+2021-08-02 - version 3.3.2
+* Fix - Fixed JS error on refreshing the provider's lists field and the provider doesn't have defined lists.
+* Fix - Fixed JS error on the settings page when there is no provider selected yet.
+
+2021-07-12 - version 3.3.1
+* Fix - Fixed warning message on checkout when no list is selected.
+
+2021-07-07 - version 3.3.0
+* Feature - Added setting for changing the location of the subscription field in the checkout form.
+* Tweak - Reorganized the subscription settings fields.
+* Tweak - Tested compatibility with WC 5.5.
+* Tweak - Tested compatibility with WP 5.8.
+* Dev - Deprecated the `wc_newsletter_subscription_checkout_content_location` filter in favor of `wc_newsletter_subscription_checkout_locations`.
+
+2021-06-15 - version 3.2.0
+* Feature - New provider: ActiveTrail.
+* Tweak - Improved responsive styles for the dashboard widget.
+
+2021-05-24 - version 3.1.1
+* Tweak - Fetch only the necessary fields when getting the Mailchimp lists.
+* Tweak - Get all Mailchimp lists instead of only the first 10 lists.
+* Tweak - Tested compatibility with WC 5.4.
+
+2021-04-29 - version 3.1.0
+* Feature - Refresh the provider lists on the settings page.
+* Feature - Refresh the subscription stats in the dashboard widget.
+* Tweak - Tested compatibility up to WC 5.3.
+
+2021-03-22 - version 3.0.0
+* Feature - New provider: MailerLite.
+* Feature - New provider: MailPoet 3.
+* Feature - New provider: SendGrid.
+* Feature - Subscribe customers only on specific order statuses.
+* Tweak - Validate the provider credentials before connecting the store.
+* Tweak - Check the plugin required by a provider is installed. E.g. MailPoet.
+* Tweak - Updated recommended privacy policy texts.
+* Tweak - Better error handling for the subscription widget.
+* Tweak - Check the minimum requirements before initializing the plugin.
+* Tweak - Tested compatibility with WC 5.1.
+* Tweak - Tested compatibility with WP 5.7.
+* Fix - Fixed MailPoet 2 stats when the 'Signup' confirmation' option is enabled.
+* Dev - Revamped the integration with the different providers.
+* Dev - Log possible errors thrown by the providers' API requests.
+* Dev - Replaced the Campaign Monitor PHP client by the WordPress HTTP Request API.
+* Dev - Updated the minimum requirements to WC 3.0, WP 4.4, and PHP 5.4.
+
+2021-02-03 - version 2.9.3
+* Tweak - Removed jQuery deprecations.
+* Tweak - Tested compatibility up to WC 5.0.
+
+2020-11-25 - version 2.9.2
+* Tweak - Tested compatibility up to WP 5.6.
+* Tweak - Tested compatibility up to WC 4.8.
+* Fix - Fixed fatal error when the class 'WC_Widget' is not defined.
+* Fix - Fixed fatal error on the settings page when it fails the request for fetching the Mailchimp lists.
+
+2020-09-02 - version 2.9.1
+* Fix - Fixed limit of list retrieved by Mailchimp API.
+
+2020-07-01 - version 2.9.0
+* Tweak - Moved the subscription field after the terms and conditions in the checkout form.
+* Tweak - Hidden the tag (optional) from the subscription field.
+* Tweak - Use WooCommerce templates to output the content in the checkout and register forms.
+* Tweak - Remove the service provider credentials when uninstalling the extension.
+* Tweak - Tested compatibility with WC 4.3.
+* Fix - Fixed compatibility with PayPal Express Checkout.
+
+2020-06-01 - version 2.8.1
+* Tweak - Tested compatibility with WC 4.2.
+
+2020-05-19 - version 2.8.0
+* Feature - Overhauled settings page.
+* Tweak - Optimized the initialization of the subscription widget.
+* Tweak - Tested compatibility with WC 4.1.
+
+2020-04-13 - version 2.7.0
+* Tweak - Updated MailChimp API version to 3.0.
+* Tweak - Deprecated MailChimp eCommerce 360.
+
+2020-03-30 - version 2.6.0
+* Tweak - Updated Campaign Monitor API client to version 6.1.0.
+* Tweak - Tested compatibility with WC 4.0.
+* Tweak - Tested compatibility with WP 5.4.
+* Fix - MailChimp customer ID not stored properly when processing the register form.
+* Dev - Set the minimum requirements to PHP 5.3.
+
+2020-01-15 - version 2.5.4
+* Tweak - Tested compatibility with WC 3.9.
+
+2019-10-31 - version 2.5.3
+* Tweak - Tested compatibility with WP 5.3.
+* Tweak - Tested compatibility with WC 3.8.
+
+2019-10-11 - version 2.5.2
+* Fix - Fixed error when displaying the Campaign Monitor stats in the dashboard.
+* Fix - Fixed caching for the Campaign Monitor lists.
+
+2019-10-10 - version 2.5.1
+* Tweak - Validate too many attempts to subscribe in the subscription widget.
+
+2019-10-07 - version 2.5.0
+* Feature - Submit the subscription widget form by AJAX.
+* Feature - Added option for splitting the 'Name' field in two fields in the subscription widget.
+* Feature - Optionally display a message before the subscription widget form.
+* Tweak - Added nonce verification to the subscription widget.
+* Tweak - Added honeypot field to the subscription widget.
+* Tweak - Added minimal styles to the subscription widget.
+* Tweak - Hide the subscription widget form on success.
+* Dev - Rewritten subscription widget.
+* Dev - Added plugin constants.
+
+2019-09-09 - version 2.4.1
+* Tweak - Updated Campaign Monitor API client to version 5.1.3.
+
+2019-08-05 - version 2.4.0
+* Tweak - Changed plugin text-domain to `woocommerce-subscribe-to-newsletter`.
+* Fix - Fixed invalid text domain in some translatable strings.
+* Fix - Fixed no-defined index warning for the field 'list' in the widget form.
+* Update - WC 3.7 compatibility.
+* Update - WP 5.2 compatibility.
+
+2019-04-09 - version 2.3.14
+* Update - WC 3.6 compatibility.
+
+2018-11-13 - version 2.3.13
+* Update - WC 3.5 compatibility.
+
+2018-05-22 - version 2.3.12
+* Fix - Compatibility with Points and Rewards was increasing points multiple times on subscribe.
+* Fix - Text domain not set causing external translation app not to work.
+* Update - Privacy policy notification.
+* Update - WC 3.4 compatibility.
+
+2018-03-28 - version 2.3.11
+* Tweak - Introduce a filter for API requests against MailChimp.
+
+2017-09-06 - version 2.3.10
+* Fix - Fix fatal error in case Points and Rewards is not active.
+
+2017-08-24 - version 2.3.9
+* Fix - Additional compatibility fix for Points and Rewards.
+
+2017-08-16 - version 2.3.8
+* Fix - Increase Points and Rewards compatibility for new registering users selecting Newsletter Subscription.
+
+2017-06-26 - version 2.3.7
+* New - Added the new Woo plugin header, for WooCommerce 3.1 compatibility.
+
+2017-03-20 - version 2.3.6
+* Fix - Update for WooCommerce 3.0 compatibility.
+* Fix - Issue with non-translatable string on WPML environment.
+
+2016-10-26 - version 2.3.5
+* Fix - Catch exception thrown when Campaing Monitor API returns HTTP 500.
+* Fix - Replaces deprecated woocommerce_clean with wc_clean.
+* Tweak - Add settings, docs, and support links in plugin actions.
+* Tweak - Update plugin's main file to woocommerce-subscribe-to-newsletter.
+
+2016-07-27 - version 2.3.4
+* Fix - eCommerce tracking is now initiated after API call to ensure we capture the unique user email id in cases where this value is not being passed.
+
+2016-04-26 - version 2.3.3
+* Fix - Fatal error due to a conflict between this extension and WooCommerce Mailchimp Integration.
+
+2016-03-21 - version 2.3.2
+* Fix - Deprecated method calls with same name as class by updating Campaign Monitor library to 5.0.1.
+
+2015-12-09 - version 2.3.1
+* Remove - Text in settings that requires API for Mailchimp only as all APIs will need this.
+
+2015-08-07 - version 2.3.0
+* Feature - MailPoet Integration.
+* Fix - Fire the wc_subscribed_to_newsletter hook on a successful CampaignMonitor signup, not when an error is sent.
+* Fix - Added more output sanitization.
+
+2015-05-13 - version 2.2.7
+* Fix - 2.4 Compatibility.
+
+2015-05-13 - version 2.2.6
+* Fix - Disable process_register_form on checkout.
+
+2015-03-18 - version 2.2.5
+* Fix - array merge warnings when mailchimp lists were not set up yet.
+
+2015-02-24 - version 2.2.4
+* 2.3 Compatibility.
+
+2014-09-03 - version 2.2.3
+* 2.2 Compatibility.
+
+2014-04-22 - version 2.2.2
+* Don't send emails for error 214.
+* If a user has subscribed, store a value in meta and stop showing newsletter field to prevent double subscription.
+
+2014-04-08 - version 2.2.1
+* Prevent errors with incorrect API keys.
+
+2014-04-08 - version 2.2.0
+* MailChimp API v2 update.
+
+2014-03-14 - version 2.1.4
+* Fix registration hooks.
+* Set double opt in to yes by default.
+
+2014-01-17 - version 2.1.3
+* 2.1 compat.
+
+2013-09-12 - version 2.1.2
+* Add button class to widget subscribe button.
+
+2013-06-19 - version 2.1.1
+* Clear transient when changing api keys.
+
+2013-06-19 - version 2.1.0
+* Double opt-in option for MailChimp.
+* Added optional name field to widget.
+
+2013-06-19 - version 2.0.4
+* Points and rewards integration.
+
+2013-03-15 - version 2.0.3
+* wc_mailchimp_subscribe_vars hook.
+
+2013-03-07 - version 2.0.2
+* Fix error on settings page.
+
+2013-02-25 - version 2.0.1
+* Fix error when API keys are not entered.
+
+2013-02-22 - version 2.0
+* Rewrote extension to be class based.
+* Support MailChimp ecommerce360.
+
+2013-01-21 - version 1.3.1
+* Fixed global error in widget.
+
+2013-01-11 - version 1.3.0
+* WC 2.0 Compat.
+* Cleanup.
+
+2012-12-04 - version 1.2.1
+* New updater.
+
+2012-10-03 - version 1.2
+* Add subscription to woocommerce registration pages.
+
+2012-10-03 - version 1.1.5
+* Support PP Express Checkout - shows on the return page.
+
+2012-07-12 - version 1.1.4
+* Made widget only available for users with manage_woocommerce caps.
+
+2012-05-30 - version 1.1.3
+* Ignore error code 214 (list already subscribed).
+
+2012-05-18 - version 1.1.2
+* Fixed errors if another plugin uses JSON class already.
+
+2012-03-30 - version 1.1.1
+* Jump to widget success message after subscribing.
+
+2012-03-03 - version 1.1
+* Updated woo updater.
+* Show subscribe on my account signup form.
+
+2012-02-06 - version 1.0.4
+* Default status.
+
+2012-01-26 - version 1.0.3
+* WC 1.4 Compatibility.
+
+2011-12-11 - version 1.0.2
+* Added Drop Down to widget settings.
+
+2011-12-01 - version 1.0.1
+* Changed textdomain.
+* Added WooUpdater.
+
+2011-10-13 - version 1.0
+* First Release.

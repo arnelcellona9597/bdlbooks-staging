@@ -1,0 +1,128 @@
+*** WooCommerce Advanced Product Labels Changelog ***
+
+2024-3-12 - version 1.3.0
+* add - 'Advanced settings' and 'Custom CSS' settings for global labels
+* add - WPML String translation support
+* update - Rewrite settings area so that global label settings fall within the WooCommerce > Settings section
+* update - WP Conditions 1.0.15.1
+* update - PHP 8.2 compatibility improvements
+* fix - small layout fixes
+* remove - Legacy woo-includes/ folder
+
+2023-07-24 - version 1.2.3
+* update - Clear object cache when saving a global label to ensure changes come through with persistent cache
+* update - Product age condition improvements
+* fix - Missing textdomains
+
+2023-01-09 - version 1.2.2
+* add - Declare HPOS compatibility
+* update - Bump minimum PHP version to 7.0
+* update - Update WP Conditions to 1.0.13
+* fix - 'Bestseller' condition not always working as expected
+* remove - Removed the deprecated WAPL_Label class
+
+2022-02-14 - version 1.2.1
+* fix - JS console error on some WAPL related pages
+* fix - Label colors not always applied
+
+2022-02-02 - version 1.2.0
+* add - Allow custom labels - Upload your custom images to use as product labels!
+* add - 'Custom' alignment - drag&drop the labels at any position!
+* add - Actual product image preview - select which product you want to preview the label on.
+* add - Check to see if labels are missing. Will show notice in admin if detected that labels are missing.
+* update - Up to WooCommerce version 6.1
+
+2021-04-02 - version 1.1.8
+ * update - Add z-index: 99; for labels
+ * update - Add additional checks for WC Active / Composite compatibility
+ * update - Up to WooCommerce version 5.1
+
+2020-02-06 - version 1.1.7
+* update - Ensure styles are loaded on non-WooCommerce pages when labels are displayed
+
+2019-11-25 - version 1.1.6
+* update - Better styling for ribbon for small characters (ensuring there's one per line)
+* update - Update WP Conditions to 1.0.10
+
+2018-10-02 - version 1.1.5
+* update - Improving stability on most themes with gallery images
+* update - Update WP Conditions to 1.0.8
+* fix - incidental JS conflict
+
+2017-10-26 - version 1.1.4
+* fix - Fatal error when saving a page in admin that holds a shortcode like [products ids="97"]
+
+2017-09-01 - version 1.1.3
+* fix - Featured condition not matching in cases after WC 3.0
+* fix - PHP 7.1 notice {discount} is used when sale price is not set
+* update - Small style fix for Storefront (should also help other themes)
+
+2017-06-30 - version 1.1.2
+* update - Update WP Conditions to 1.0.3
+* fix - 'User role' condition 'Guest' wasn't working
+* update - Allow conditions outside postbox / multiple times inside. Not limited to .postbox class.
+* add - Zipcode range support. E.g. 'Zipcode' = 'equal to' = '10000-20000,30000-40000'
+
+2017-04-09 - version 1.1.1
+* add - Support for 'Guest user' on the 'User role' condition
+* update - Further improvements to prevent WC 3.0 notices
+* fix - Random IDs for conditions being too big for 32-bit systems
+
+2017-03-09 - version 1.1.0
+* [IMPORTANT NOTE] - As of this version, the plugin requires PHP 5.3 or higher to function
+* add - 4 new label types!
+* add - WC 3.0 compatibility
+* update - BIG performance improvements
+* update - BIG refactor of the backend conditions - please verify your setup if using custom coded condition
+* update - Smoother User Experience with conditions
+* update - 	Instant adding of conditions / condition groups
+* update - 	Only show valid operator options
+* update - 	Instantly show condition descriptions
+* update - 	Deleting entire condition groups
+* update - 	Duplicate condition groups
+
+2016-12-23 - version 1.0.9
+* add - Condition instance argument to 'wapl_condition_values' filter
+* update - Add jquery-ui-sortable dependency to script
+* update - Only load assets on related admin pages
+* fix - Warning when creating a new label
+* add - Basic Composite product support for discount smart label
+
+2016-09-14 - version 1.0.8
+* update - Refactored condition code (backend)
+* update - Optimize asset resources
+* update - Improved 'product' condition value fields (allow searching) and supports huge amounts of product
+
+2016-07-25 - version 1.0.7
+* update - Handle 'stock' condition and variable products better. Uses the highest stock level of variations.
+* fix - 'Show on detail pages' setting being ignored
+
+2016-05-24 - version 1.0.6
+* fix - Division by zero notice when using {percentage} in combination with $0 regular prices.
+
+2016-01-08 - version 1.0.5
+* add - Option to show product labels on product detail pages
+
+2015-09-29 - version 1.0.4
+* fix - Variable product {percentage} smart label now showing the right percentage
+* update - Keep the Woo settings menu open while in Product Label edit screen.
+* update - Use get_regular_price & get_sale_price functions for discount calculation.
+* remove - Visibility options from the Product Labels post type.
+
+2015-07-14 - version 1.0.3
+* fix - Error showing when using the 'shipping class' condition
+* update - Changelog format to Woo's standard
+
+2015-05-16 - version 1.0.2
+* add - Custom text/bg color
+* update - Add filter for label types
+* fix - Error 'division by zero' when regular price is 0
+* fix - HUGE typo in plugin name! You actually spell WooComerce with TWO M's!
+* fix - Exclude from global option doesn't exclude
+
+2015-02-11 - version 1.0.1
+* fix - single php short tag '<?'
+* update - in featured products condition matcher
+
+2015-02-03 - version 1.0.0
+* new - Initial release

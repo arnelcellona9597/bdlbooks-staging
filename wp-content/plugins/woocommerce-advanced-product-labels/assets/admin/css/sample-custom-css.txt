@@ -1,0 +1,13 @@
+.wapl-label-id-%1$s { /* Mainly used for positioning */
+	/* Your custom CSS. E.g.
+	left: 40px !important; */
+}
+.wapl-label-id-%1$s .product-label { /* Mainly used for label style
+	/* Your custom CSS. E.g.
+	width: 50px; */
+}
+.wapl-label-id-%1$s .product-label .wapl-label-text { /* Mainly used for label text style */
+	/* Your custom CSS. E.g.
+	font-weight: bold;
+	text-decoration: underline; */
+}

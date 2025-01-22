@@ -1,0 +1,416 @@
+# Copyright (C) 2021 Ewout Fernhout
+# This file is distributed under the same license as the WooCommerce Print Address Labels plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Print Address Labels 1.7.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"address-labels\n"
+"POT-Creation-Date: 2021-05-10T21:47:16+00:00\n"
+"PO-Revision-Date: 2021-05-11 20:44-0400\n"
+"Last-Translator: Yordan Soares <contacto@yordansoar.es>\n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Domain: wpo_wclabels\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: includes/wclabels-settings.php:108
+msgid "WooCommerce Print Address Labels"
+msgstr "WooCommerce Print Address Labels"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.wpovernight.com"
+msgstr "http://www.wpovernight.com"
+
+#. Description of the plugin
+msgid "Print out address labels for selected orders straight from WooCommerce"
+msgstr ""
+"Imprime etiquetas de dirección para los pedidos seleccionados directamente "
+"desde WooCommerce"
+
+#. Author of the plugin
+msgid "Ewout Fernhout"
+msgstr "Ewout Fernhout"
+
+#: includes/class-wclabels-settings-callbacks.php:31
+msgid "Columns"
+msgstr "Columnas"
+
+#: includes/class-wclabels-settings-callbacks.php:36
+msgid "Rows"
+msgstr "Filas"
+
+#: includes/class-wclabels-settings-callbacks.php:47
+msgid "Label spacing"
+msgstr "Espacio entre etiquetas"
+
+#: includes/class-wclabels-settings-callbacks.php:50
+msgid "Vertical"
+msgstr "Vertical"
+
+#: includes/class-wclabels-settings-callbacks.php:54
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: includes/class-wclabels-settings-callbacks.php:77
+msgid ""
+"Here you can modify the address formatting on the labels and/or add custom "
+"fields."
+msgstr ""
+"Aquí puedes modificar el formato de la dirección en las etiquetas y/o añadir "
+"campos personalizados."
+
+#: includes/class-wclabels-settings-callbacks.php:78
+msgid ""
+"You can use the following placeholders in addition to regular text and html "
+"tags (like h1, h2, b):"
+msgstr ""
+"Puedes usar los siguientes marcadores de posición, además de texto y "
+"etiquetas HTML (como h1, h2, b):"
+
+#: includes/class-wclabels-settings-callbacks.php:82
+msgid "Billing fields"
+msgstr "Campos de facturación"
+
+#: includes/class-wclabels-settings-callbacks.php:83
+msgid "Shipping fields"
+msgstr "Campos de envío"
+
+#: includes/class-wclabels-settings-callbacks.php:84
+msgid "Other data"
+msgstr "Otros datos"
+
+#: includes/class-wclabels-settings-callbacks.php:140
+msgid "Compatible only with the WooCommerce Order Barcodes plugin."
+msgstr "Compatible solo con el plugin WooCommerce Order Barcodes."
+
+#: includes/class-wclabels-settings-callbacks.php:148
+msgid "Select or upload an image"
+msgstr "Selecciona o sube una imagen"
+
+#: includes/class-wclabels-settings-callbacks.php:148
+msgid "Select image"
+msgstr "Selecciona una imagen"
+
+#: includes/class-wclabels-settings-callbacks.php:169
+msgid "Create image placeholder"
+msgstr "Crear un marcador de posición de imagen"
+
+#: includes/class-wclabels-settings-callbacks.php:187
+msgid "Font family"
+msgstr "Familia de fuente"
+
+#: includes/class-wclabels-settings-callbacks.php:191
+#: includes/class-wclabels-settings-callbacks.php:210
+msgid "Browser default"
+msgstr "Por defecto del navegador"
+
+#: includes/class-wclabels-settings-callbacks.php:221
+msgid "Variant"
+msgstr "Variante"
+
+#: includes/class-wclabels-settings-callbacks.php:233
+msgid "Subsets"
+msgstr "Subconjuntos"
+
+#: includes/wclabels-print.php:38 includes/wclabels-print.php:65
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: includes/wclabels-print.php:46
+msgid "Some of the export parameters are missing."
+msgstr "No se han encontrado algunos de los parámetros de exportación."
+
+#: includes/wclabels-print.php:57
+msgid "You have not selected any orders!"
+msgstr "¡No has seleccionado ningún pedido!"
+
+#: includes/wclabels-print.php:352 includes/wclabels-print.php:364
+msgid "No orders found!"
+msgstr "¡No se han encontrado pedidos!"
+
+#: includes/wclabels-settings.php:30 includes/wclabels-settings.php:31
+msgid "Address Labels"
+msgstr "Etiquetas de dirección"
+
+#: includes/wclabels-settings.php:98
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/wclabels-settings.php:99 includes/wclabels-settings.php:219
+#: includes/wclabels-settings.php:258
+msgid "Page layout"
+msgstr "Diseño de página"
+
+#: includes/wclabels-settings.php:100 includes/wclabels-settings.php:354
+msgid "Label contents"
+msgstr "Contenido de la etiqueta"
+
+#: includes/wclabels-settings.php:158
+msgid "Template settings"
+msgstr "Ajustes de la plantilla"
+
+#: includes/wclabels-settings.php:165
+msgid "Paper format"
+msgstr "Formato de papel"
+
+#: includes/wclabels-settings.php:173
+msgid "A4"
+msgstr "A4"
+
+#: includes/wclabels-settings.php:174
+msgid "Letter"
+msgstr "Carta"
+
+#: includes/wclabels-settings.php:175
+msgid "Custom size (enter below)"
+msgstr "Tamaño personalizado (introdúcelo a continuación)"
+
+#: includes/wclabels-settings.php:184
+msgid "Width:"
+msgstr "Ancho:"
+
+#: includes/wclabels-settings.php:190
+msgid "Height:"
+msgstr "Alto:"
+
+#: includes/wclabels-settings.php:203
+msgid "Paper orientation"
+msgstr "Orientación de la hoja"
+
+#: includes/wclabels-settings.php:211
+msgid "Portrait"
+msgstr "Retrato"
+
+#: includes/wclabels-settings.php:212
+msgid "Landscape"
+msgstr "Paisaje"
+
+#: includes/wclabels-settings.php:226
+msgid "Margins"
+msgstr "Márgenes"
+
+#: includes/wclabels-settings.php:229
+msgid "Top"
+msgstr "Arriba"
+
+#: includes/wclabels-settings.php:235
+msgid "Bottom"
+msgstr "Abajo"
+
+#: includes/wclabels-settings.php:241
+msgid "Left"
+msgstr "Izquierda"
+
+#: includes/wclabels-settings.php:247
+msgid "Right"
+msgstr "Derecha"
+
+#: includes/wclabels-settings.php:269
+msgid "Custom styles"
+msgstr "Estilos personalizados"
+
+#: includes/wclabels-settings.php:278
+msgid "Enter custom CSS styles for the address labels here"
+msgstr ""
+"Introduce aquí los estilos CSS personalizados para las etiquetas de dirección"
+
+#: includes/wclabels-settings.php:284
+msgid "Let printer determine media size"
+msgstr "Dejar que la impresora determine el tamaño del soporte"
+
+#: includes/wclabels-settings.php:291
+msgid ""
+"Enable this to set the final media size in the print dialog rather than "
+"passing the above size/orientation settings"
+msgstr ""
+"Activa esta opción para establecer el tamaño final del soporte en la ventana "
+"de diálogo de impresión en lugar de pasar los ajustes de tamaño y "
+"orientación anteriores"
+
+#: includes/wclabels-settings.php:299
+msgid "Interface settings"
+msgstr "Ajustes de la interfaz"
+
+#: includes/wclabels-settings.php:310
+msgid "Ask for offset"
+msgstr "Preguntar por desplazamiento"
+
+#: includes/wclabels-settings.php:317
+msgid "This option enables you to start printing on for example the 3rd label"
+msgstr ""
+"Esta opción permite iniciar la impresión, por ejemplo, en la tercera etiqueta"
+
+#: includes/wclabels-settings.php:323
+msgid "Enable preview"
+msgstr "Activar la previsualización"
+
+#: includes/wclabels-settings.php:330
+msgid ""
+"Open the address labels in a new browser tab instead of printing directly"
+msgstr ""
+"Abre las etiquetas en una nueva pestaña del explorador en lugar de "
+"imprimirlas directamente"
+
+#: includes/wclabels-settings.php:361
+msgid "Image placeholders"
+msgstr "Marcadores de posición de imágenes"
+
+#: includes/wclabels-settings.php:373
+msgid "Address/order data"
+msgstr "Datos de la dirección/pedido"
+
+#: includes/wclabels-settings.php:383
+msgid "Leave empty to use the default formatting."
+msgstr "Déjalo vacío para usar el formato por defecto."
+
+#: includes/wclabels-settings.php:389
+msgid "Format without line breaks"
+msgstr "Formato sin saltos de línea"
+
+#: includes/wclabels-settings.php:396
+msgid ""
+"Enable this when you want to use HTML for the address data - line breaks "
+"will otherwise be converted to <code>&lt;br&gt;</code> tags"
+msgstr ""
+"Activa esta opción cuando quieras usar HTML para los datos de la dirección, "
+"de lo contrario, los saltos de línea se convertirán en etiquetas <code>&lt;"
+"br&gt;</code>"
+
+#: includes/wclabels-settings.php:402
+msgid "Remove empty lines"
+msgstr "Ocultar líneas vacías"
+
+#: includes/wclabels-settings.php:409
+msgid ""
+"Enable this option if you want to remove empty lines left over from empty "
+"address/placeholder replacements"
+msgstr ""
+"Activa esta opción si quieres eliminar las líneas vacías de dirección o "
+"marcadores de posición vacíos"
+
+#: includes/wclabels-settings.php:415
+msgid "Address block width"
+msgstr "Ancho del bloque de direcciones"
+
+#: includes/wclabels-settings.php:424
+msgid ""
+"For consistent output, the address is placed in a fixed width block that is "
+"centered on the label."
+msgstr ""
+"Para que la salida sea coherente, la dirección se coloca en un bloque de "
+"ancho fijo centrado en la etiqueta."
+
+#: includes/wclabels-settings.php:425
+msgid ""
+"Enter any value in cm, mm, px or in - use a dot (and not a comma!) as the "
+"decimal separator!"
+msgstr ""
+"Introduce cualquier valor en cm, mm, px o in. Usa un punto (¡y no una coma!) "
+"como separador decimal."
+
+#: includes/wclabels-settings.php:432
+msgid "Text formatting"
+msgstr "Formato de texto"
+
+#: includes/wclabels-settings.php:439
+msgid "Font"
+msgstr "Fuente"
+
+#: includes/wclabels-settings.php:451
+msgid "Font size"
+msgstr "Tamaño de la fuente"
+
+#: includes/wclabels-status-export.php:6
+msgid "From"
+msgstr "Desde"
+
+#: includes/wclabels-status-export.php:9 includes/wclabels-status-export.php:17
+msgid "at"
+msgstr "a las"
+
+#: includes/wclabels-status-export.php:10
+msgid "optional"
+msgstr "opcional"
+
+#: includes/wclabels-status-export.php:14
+msgid "To"
+msgstr "Hasta"
+
+#: includes/wclabels-status-export.php:23
+msgid "Filter status"
+msgstr "Filtrar estados"
+
+#: includes/wclabels-status-export.php:27
+msgid "All statuses"
+msgstr "Todos los estados"
+
+#: includes/wclabels-status-export.php:55 includes/wclabels-writepanels.php:67
+#: includes/wclabels-writepanels.php:109 includes/wclabels-writepanels.php:154
+msgid "Labels to skip"
+msgstr "Etiquetas a saltar"
+
+#: includes/wclabels-status-export.php:63
+msgid "Exclude virtual products"
+msgstr "Excluir los productos virtuales"
+
+#: includes/wclabels-status-export.php:69
+msgid "Exclude downloadable products"
+msgstr "Excluir los productos descargables"
+
+#: includes/wclabels-status-export.php:80 includes/wclabels-writepanels.php:35
+#: includes/wclabels-writepanels.php:36
+msgid "Print address labels"
+msgstr "Imprimir etiquetas de envío"
+
+#: includes/wclabels-status-export.php:82
+msgid ""
+"Only exporting a few addresses? You can also print your labels by selecting "
+"them in the WooCommerce order overview and then select \"Print address labels"
+"\" from the bulk actions!"
+msgstr ""
+"¿Solo quieres exportar unas pocas direcciones? También puedes imprimir tus "
+"etiquetas seleccionándolas en la lista de pedidos de WooCommerce y, a "
+"continuación, ¡selecciona «Imprimir etiquetas de envío» desde las Acciones "
+"en Lote!"
+
+#: includes/wclabels-writepanels.php:49 includes/wclabels-writepanels.php:51
+#: includes/wclabels-writepanels.php:138 includes/wclabels-writepanels.php:148
+msgid "Print Address Labels"
+msgstr "Imprimir etiquetas de dirección"
+
+#: includes/wclabels-writepanels.php:70
+msgid "Print"
+msgstr "Imprimir"
+
+#: includes/wclabels-writepanels.php:149
+msgid "Print Labels"
+msgstr "Imprimir etiquetas"
+
+#. translators: click here
+#: woocommerce-address-labels.php:109
+msgid ""
+"Your license has not been activated on this site, %s to enter your license "
+"key."
+msgstr ""
+"Tu licencia no ha sido activada en este sitio, %s para introducir tu clave "
+"de licencia."
+
+#. translators: click here
+#: woocommerce-address-labels.php:109
+msgid "click here"
+msgstr "haz clic aquí"
+
+#. translators: <a> tags
+#: woocommerce-address-labels.php:183
+msgid ""
+"WooCommerce Address Labels requires %1$sWooCommerce%2$s to be installed & "
+"activated!"
+msgstr ""
+"¡WooCommerce Address Labels necesita de %1$sWooCommerce%2$s instalado y "
+"activado!"

@@ -1,0 +1,1944 @@
+# Copyright (C) 2024 Element Stark
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce WishLists 2.3.4\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/woocommerce-wishlists\n"
+"POT-Creation-Date: 2024-11-24 10:26:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: classes/class-wc-wishlist-cloner.php:33
+#: dist/woocommerce-wishlists/classes/class-wc-wishlist-cloner.php:33
+msgid "Clone this wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlist-cloner.php:34
+#: classes/class-wc-wishlist-cloner.php:75
+#: dist/woocommerce-wishlists/classes/class-wc-wishlist-cloner.php:34
+#: dist/woocommerce-wishlists/classes/class-wc-wishlist-cloner.php:75
+msgid "Clone"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-controller.php:38
+#: classes/class-wc-wishlists-admin-wishlist.php:490
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-controller.php:38
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:490
+msgid "Notifications"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:28
+#: classes/class-wc-wishlists-admin-settings.php:67
+#: classes/class-wc-wishlists-installer.php:23
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:28
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:67
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-installer.php:23
+#: dist/woocommerce-wishlists/templates/my-account-lists.php:3
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:238
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:501
+#: templates/my-account-lists.php:3 woocommerce-wishlists.php:238
+#: woocommerce-wishlists.php:501
+msgid "Wishlists"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:98
+#: classes/class-wc-wishlists-admin-settings.php:180
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:98
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:180
+msgid "Wishlist Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:186
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:186
+msgid "Allow Guests to Create Lists"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:200
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:200
+msgid "Automatically Create Lists"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:201
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:201
+msgid ""
+"<br />If set to automatic, a list with a generic title will be used.  If "
+"set to no, guests and users will be required to fill out a brief form and "
+"give the list a name before it will be created."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:210
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:210
+msgid "Message for Guests"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:211
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:211
+msgid "Only appears when Allow Guest to Create Lists is false "
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:215
+#: classes/class-wc-wishlists-admin-settings.php:216
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:215
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:216
+msgid "Please login or register for an account to create a wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:219
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:219
+msgid "Redirect to Wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:228
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:228
+msgid "Button / Link Type"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:237
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:237
+msgid "Icon "
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:238
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:238
+msgid "Only appears when button/link type is set to link"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:250
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:250
+msgid "Button / Link Text"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:254
+#: classes/class-wc-wishlists-admin-settings.php:255
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:254
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:255
+#: dist/woocommerce-wishlists/templates/add-to-wishlist-link.php:24
+#: templates/add-to-wishlist-link.php:24
+msgid "Add to wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:259
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:259
+msgid "Cart Label"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:263
+#: classes/class-wc-wishlists-admin-settings.php:264
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:263
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:264
+msgid "From Wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:269
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:269
+msgid "Wishlist Processing Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:271
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:271
+msgid "Choose behaivor after an item has been ordered from a wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:275
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:275
+msgid "Automatic Removal "
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:276
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:276
+msgid "Automatically remove items from a wishlist?"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:284
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:284
+msgid "Automatic Removal on Status "
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:285
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:285
+msgid ""
+"Choose the status the order must reach for the item to be removed from the "
+"list"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:293
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:293
+msgid "Automatic Removal Type "
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:294
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:294
+msgid ""
+"If automatically removing items from a list on purchase, should items be "
+"removed only from the customers own list or from any list.  ( Useful if "
+"using lists as a registry )"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:300
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:300
+msgid "Remove Only From Customers Own List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:301
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:301
+msgid "Remove From Any List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:305
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:305
+msgid "Show Previous Ordered Total "
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:306
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:306
+msgid ""
+"Show previously ordered total for list items on the view a list and edit a "
+"list page."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:311
+#: classes/class-wc-wishlists-admin-wishlist.php:626
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:311
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:626
+#: dist/woocommerce-wishlists/templates/create-a-list.php:137
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:443
+#: templates/create-a-list.php:137 templates/edit-my-list.php:443
+msgid "No"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:311
+#: classes/class-wc-wishlists-admin-wishlist.php:619
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:311
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:619
+#: dist/woocommerce-wishlists/templates/create-a-list.php:128
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:434
+#: templates/create-a-list.php:128 templates/edit-my-list.php:434
+msgid "Yes"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:314
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:314
+msgid "Previous Ordered Column Heading"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:318
+#: classes/class-wc-wishlists-admin-settings.php:319
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:318
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:319
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:134
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:244
+#: dist/woocommerce-wishlists/templates/view-a-list.php:152
+#: dist/woocommerce-wishlists/templates/view-a-list.php:251
+#: templates/edit-my-list.php:134 templates/edit-my-list.php:244
+#: templates/view-a-list.php:152 templates/view-a-list.php:251
+msgid "Ordered"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:324
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:324
+msgid "Wishlist Sharing Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:330
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:330
+msgid "Social Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:331
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:331
+#: dist/woocommerce-wishlists/templates/wishlist-sharing-menu.php:55
+#: templates/wishlist-sharing-menu.php:55
+msgid "Facebook"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:339
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:339
+#: dist/woocommerce-wishlists/templates/wishlist-sharing-menu.php:60
+#: templates/wishlist-sharing-menu.php:60
+msgid "Twitter"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:347
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:347
+#: dist/woocommerce-wishlists/templates/wishlist-sharing-menu.php:50
+#: templates/wishlist-sharing-menu.php:50
+msgid "Email"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:355
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:355
+msgid "Pinterest"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:364
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:364
+msgid "Wishlist Style Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:370
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:370
+msgid "Custom Buttons"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:371
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:371
+msgid "Enable Custom Wishlist Button Colors"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:378
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:378
+msgid "Button Color"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:384
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:384
+msgid "Button Text Color"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:390
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:390
+msgid "Custom CSS"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:393
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:393
+msgid "Enter in any custom styles you would like here."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:401
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:401
+msgid "Wishlist Page Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:407
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:407
+msgid "My Lists Page"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:408
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:408
+msgid ""
+"This is where users will view their lists. Page contents: "
+"[wc_wishlists_my_archive]"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:417
+#: classes/class-wc-wishlists-installer.php:25
+#: classes/class-wc-wishlists-messages.php:34
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:417
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-installer.php:25
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-messages.php:34
+msgid "Create a List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:418
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:418
+msgid ""
+"This is where users will create new lists. Page contents: "
+"[wc_wishlists_create]"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:427
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:427
+msgid "Edit a List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:428
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:428
+msgid "This is where users will edit their list. Page contents: [wc_wishlists_edit]"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:437
+#: classes/class-wc-wishlists-installer.php:27
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:437
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-installer.php:27
+msgid "Find a List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:438
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:438
+msgid "This is where you can search for lists. Page contents: [wc_wishlists_search]"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:447
+#: classes/class-wc-wishlists-installer.php:26
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:447
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-installer.php:26
+msgid "View a List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:448
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:448
+msgid ""
+"This is where public and protected lists are viewed. Page contents: "
+"[wc_wishlists_single]"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:458
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:458
+msgid "Wishlist Notification Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:460
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:460
+msgid ""
+"Automatically send notifications to wishlist owners when a price reduction "
+"occurs"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:464
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:464
+msgid "Send Notifications"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:475
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:475
+msgid "Add to Cart Options"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:477
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:477
+msgid "Options for the Add to Cart Buttons on lists"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:481
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:481
+msgid "Prompt for Quantities "
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:482
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:482
+msgid ""
+"Prompt customers for the quantity to add to the cart when clicking the "
+"button while viewing a list?"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:580
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:580
+msgid "Wishlist Button Color"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:590
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:590
+msgid "Button"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:590
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:590
+msgid ""
+"Choose the color for the background of the button when link type is set to "
+"button."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:599
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:599
+msgid "Text"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-settings.php:599
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-settings.php:599
+msgid "Choose the color for the font of the button when link type is set to button."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:61
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:61
+msgid "Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:61
+#: classes/class-wc-wishlists-admin-wishlist.php:508
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:61
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:508
+#: dist/woocommerce-wishlists/templates/create-a-list.php:199
+#: dist/woocommerce-wishlists/templates/my-lists.php:54
+#: templates/create-a-list.php:199 templates/my-lists.php:54
+msgid "Preview"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:64
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:64
+msgid "View &#8220;%s&#8221;"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:64
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:64
+msgid "View"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:95
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:95
+msgid "Are you sure you want to remove the selected items?"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:96
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:96
+msgid "Please select some items."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:131
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:131
+msgid "Show All Types"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:133
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:133
+msgid "Permanent"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:135
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:135
+msgid "Temporary List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:139
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:139
+msgid "Show All Sharing Types"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:141
+#: classes/class-wc-wishlists-admin-wishlist.php:534
+#: classes/models/class-wc-wishlists-wishlist.php:78
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:141
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:534
+#: dist/woocommerce-wishlists/classes/models/class-wc-wishlists-wishlist.php:78
+#: dist/woocommerce-wishlists/templates/create-a-list.php:63
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:370
+#: dist/woocommerce-wishlists/templates/my-lists.php:65
+#: templates/create-a-list.php:63 templates/edit-my-list.php:370
+#: templates/my-lists.php:65
+msgid "Public"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:143
+#: classes/class-wc-wishlists-admin-wishlist.php:541
+#: classes/models/class-wc-wishlists-wishlist.php:81
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:143
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:541
+#: dist/woocommerce-wishlists/classes/models/class-wc-wishlists-wishlist.php:81
+#: dist/woocommerce-wishlists/templates/create-a-list.php:71
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:381
+#: dist/woocommerce-wishlists/templates/my-lists.php:66
+#: templates/create-a-list.php:71 templates/edit-my-list.php:381
+#: templates/my-lists.php:66
+msgid "Shared"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:145
+#: classes/class-wc-wishlists-admin-wishlist.php:548
+#: classes/models/class-wc-wishlists-wishlist.php:84
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:145
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:548
+#: dist/woocommerce-wishlists/classes/models/class-wc-wishlists-wishlist.php:84
+#: dist/woocommerce-wishlists/templates/create-a-list.php:79
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:392
+#: dist/woocommerce-wishlists/templates/my-lists.php:67
+#: templates/create-a-list.php:79 templates/edit-my-list.php:392
+#: templates/my-lists.php:67
+msgid "Private"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:275
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:275
+msgid "Title"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:276
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:276
+msgid "Type"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:277
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:277
+msgid "Sharing Status"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:278
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:278
+msgid "User"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:279
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:279
+msgid "Email on List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:280
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:280
+msgid "Name on List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:281
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:281
+msgid "Products"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:282
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:282
+msgid "Date"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:357
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:357
+msgid "Wishlist updated. <a href=\"%s\">View Wishlist</a>"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:358
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:358
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:359
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:359
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:360
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:360
+msgid "Wishlist updated."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:362
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:362
+#. translators: %s: date and time of the revision
+msgid "Wishlist restored to revision from %s"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:363
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:363
+msgid "Wishlist published. <a href=\"%s\">View Wishlist</a>"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:364
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:364
+msgid "Wishlist saved."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:365
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:365
+msgid "Wishlist submitted. <a target=\"_blank\" href=\"%s\">Preview Wishlist</a>"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:366
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:366
+msgid ""
+"Wishlist scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview Wishlist</a>"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:368
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:368
+#. translators: Publish box date format, see http:php.net/date
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:369
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:369
+msgid ""
+"Wishlist draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"Wishlist</a>"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:469
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:469
+msgid "Items"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:475
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:475
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:508
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:509
+#: woocommerce-wishlists.php:508 woocommerce-wishlists.php:509
+msgid "View Wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:481
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:481
+msgid "Name and Information"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:486
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:486
+msgid "Sharing"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:512
+#: classes/class-wc-wishlists-installer.php:28
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:512
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-installer.php:28
+msgid "Manage List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:529
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:529
+#: dist/woocommerce-wishlists/templates/create-a-list.php:56
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:361
+#: dist/woocommerce-wishlists/templates/my-account-lists.php:9
+#: dist/woocommerce-wishlists/templates/my-lists.php:30
+#: templates/create-a-list.php:56 templates/edit-my-list.php:361
+#: templates/my-account-lists.php:9 templates/my-lists.php:30
+msgid "Privacy Settings"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:535
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:535
+#: dist/woocommerce-wishlists/templates/create-a-list.php:64
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:371
+#: templates/create-a-list.php:64 templates/edit-my-list.php:371
+msgid "Anyone can search for and see this list. You can also share using a link."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:542
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:542
+#: dist/woocommerce-wishlists/templates/create-a-list.php:72
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:382
+#: templates/create-a-list.php:72 templates/edit-my-list.php:382
+msgid ""
+"Only people with the link can see this list. It will not appear in public "
+"search results."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:549
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:549
+#: dist/woocommerce-wishlists/templates/create-a-list.php:80
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:393
+#: templates/create-a-list.php:80 templates/edit-my-list.php:393
+msgid "Only you can see this list."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:568
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:568
+#: dist/woocommerce-wishlists/templates/create-a-list.php:86
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:399
+#: templates/create-a-list.php:86 templates/edit-my-list.php:399
+msgid ""
+"Enter a name you would like associated with this list.  If your list is "
+"public, users can find it by searching for this name."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:570
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:570
+#: dist/woocommerce-wishlists/templates/create-a-list.php:88
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:402
+#: templates/create-a-list.php:88 templates/edit-my-list.php:402
+msgid "First Name"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:575
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:575
+#: dist/woocommerce-wishlists/templates/create-a-list.php:98
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:409
+#: templates/create-a-list.php:98 templates/edit-my-list.php:409
+msgid "Last Name"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:580
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:580
+msgid "Email Assoicated with the List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:589
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:589
+msgid "Attach to a User"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:594
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:594
+msgid "User ID Assoicated with the List"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:614
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:614
+msgid "Notification Settings"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:620
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:620
+msgid "Send an email if a price reduction occurs."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:627
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:627
+msgid "Do not send an email if a price reduction occurs."
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:671
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:671
+msgid "Item"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:672
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:672
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:132
+#: dist/woocommerce-wishlists/templates/view-a-list.php:150
+#: templates/edit-my-list.php:132 templates/view-a-list.php:150
+msgid "Qty"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:691
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:691
+msgid "Product ID:"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:694
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:694
+msgid "Variation ID:"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:698
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:698
+msgid "Product SKU:"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:746
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:746
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:95
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:299
+#: templates/edit-my-list.php:95 templates/edit-my-list.php:299
+msgid "Actions"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:747
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:747
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:505
+#: woocommerce-wishlists.php:505
+msgid "Edit"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:748
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:748
+msgid "Delete Lines"
+msgstr ""
+
+#: classes/class-wc-wishlists-admin-wishlist.php:753
+#: classes/class-wc-wishlists-admin-wishlist.php:754
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:753
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-admin-wishlist.php:754
+msgid "Apply"
+msgstr ""
+
+#: classes/class-wc-wishlists-cron.php:162
+#: classes/class-wc-wishlists-cron.php:164
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-cron.php:162
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-cron.php:164
+msgid ""
+"<a href=\"%s\">%s</a> has been reduced in price! Was %s, now available for "
+"%s "
+msgstr ""
+
+#: classes/class-wc-wishlists-cron.php:238
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-cron.php:238
+msgid "%s"
+msgstr ""
+
+#: classes/class-wc-wishlists-cron.php:251
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-cron.php:251
+msgid "Price Change Notification"
+msgstr ""
+
+#: classes/class-wc-wishlists-email-verification.php:36
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-email-verification.php:36
+msgid "Your email has been confirmed"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:27
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:27
+msgid "Confirm Wishlist Email"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:28
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:28
+msgid ""
+"Email sent to customers who create a list and need to verify their email "
+"address"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:53
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:53
+msgid "Response Required:  Confirm your email address for your Wish List"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:63
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:63
+msgid "Verification Required"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:129
+#: classes/class-wc-wishlists-mail-share-list.php:145
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:129
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:145
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:131
+#: classes/class-wc-wishlists-mail-share-list.php:147
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:131
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:147
+msgid "Enable this email notification"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:135
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:135
+msgid "Subject"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:139
+#: classes/class-wc-wishlists-mail-email-verification.php:148
+#: classes/class-wc-wishlists-mail-share-list.php:142
+#: classes/class-wc-wishlists-mail-share-list.php:155
+#: classes/class-wc-wishlists-mail-share-list.php:164
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:139
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:148
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:142
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:155
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:164
+#. translators: %s: list of placeholders
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:144
+#: classes/class-wc-wishlists-mail-share-list.php:160
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:144
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:160
+msgid "Email heading"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:153
+#: classes/class-wc-wishlists-mail-share-list.php:178
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:153
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:178
+msgid "Email type"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-email-verification.php:155
+#: classes/class-wc-wishlists-mail-share-list.php:180
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-email-verification.php:155
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:180
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-share-list.php:28
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:28
+msgid "Wishlist Sharing"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-share-list.php:29
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:29
+msgid "Email sent to customers when someone shares a list"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-share-list.php:58
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:58
+msgid "A wishlist has been shared with you from %s"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-share-list.php:68
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:68
+msgid "A wishlist has been shared with you"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-share-list.php:151
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:151
+msgid "Default Subject"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-share-list.php:169
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:169
+msgid "Additional content"
+msgstr ""
+
+#: classes/class-wc-wishlists-mail-share-list.php:170
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-mail-share-list.php:170
+msgid "Default content to appear below the users email content."
+msgstr ""
+
+#: classes/class-wc-wishlists-messages.php:31
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-messages.php:31
+msgid "Error creating list.  Please try again later"
+msgstr ""
+
+#: classes/class-wc-wishlists-messages.php:37
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-messages.php:37
+msgid "Create a list to save items for later."
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:10
+#: classes/class-wc-wishlists-request-handler.php:450
+#: classes/class-wc-wishlists-request-handler.php:463
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:10
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:450
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:463
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:345
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:352
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:636
+#: woocommerce-wishlists-api.php:345 woocommerce-wishlists-api.php:352
+#: woocommerce-wishlists.php:636
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:86
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:86
+msgid "Please name your list"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:134
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:134
+msgid "Wishlist successfully created. %s items moved"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:136
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:136
+msgid "Wishlist successfully created"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:152
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:152
+msgid "Unable to locate wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:162
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:162
+msgid "You can only manage your own lists"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:169
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:169
+msgid "Wishlist successfully deleted"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:180
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:180
+msgid "Unable to locate wishlist for updating"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:184
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:184
+msgid "Name can not be empty"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:196
+#: classes/class-wc-wishlists-request-handler.php:223
+#: classes/class-wc-wishlists-request-handler.php:258
+#: classes/class-wc-wishlists-request-handler.php:288
+#: classes/class-wc-wishlists-request-handler.php:369
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:196
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:223
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:258
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:288
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:369
+msgid "You can only update your own lists"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:204
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:204
+msgid "Wishlist successfully updated"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:230
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:230
+msgid "Lists successfullly updated"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:232
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:232
+msgid ""
+"There was an error updating your lists.  Please refresh the page and try "
+"again."
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:249
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:249
+msgid "Unable to remove item.  Please try again"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:264
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:264
+msgid "Item removed from your list"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:274
+#: classes/class-wc-wishlists-request-handler.php:360
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:274
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:360
+msgid "Unable to edit list.  Please try again"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:299
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:299
+msgid "%s Items removed from your list"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:301
+#: classes/class-wc-wishlists-request-handler.php:314
+#: classes/class-wc-wishlists-request-handler.php:329
+#: classes/class-wc-wishlists-request-handler.php:347
+#: classes/class-wc-wishlists-request-handler.php:393
+#: classes/class-wc-wishlists-request-handler.php:421
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:301
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:314
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:329
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:347
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:393
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:421
+msgid "Please select at least one item before applying an action"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:327
+#: classes/class-wc-wishlists-request-handler.php:419
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:327
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:419
+msgid "%s have been added to the cart"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:345
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:345
+msgid ""
+"%s Items successfully moved to %s <a class=\"button\" href=\"%s\">Edit "
+"List</a>"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:391
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:391
+msgid "%s Items updated"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:490
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:490
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:50
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:502
+#: woocommerce-wishlists-api.php:50 woocommerce-wishlists.php:502
+msgid "Wishlist"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:501
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:501
+msgid "Unable to add product to the cart. Product no longer exists"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:507
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:507
+msgid "Purchases are currently disabled for %s"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:513
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:513
+msgid "Please use the external site to purchase %s"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:523
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:523
+msgid "View Cart"
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:523
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:523
+msgid "You cannot add another &quot;%s&quot; to your cart."
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:571
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:571
+msgid "Product successfully added to your cart."
+msgstr ""
+
+#: classes/class-wc-wishlists-request-handler.php:578
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-request-handler.php:578
+msgid "Unable to add product to the cart. Please try again"
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:16
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:16
+msgid "List Type."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:25
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:25
+msgid "List Sharing Status."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:34
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:34
+msgid "List Status."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:43
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:43
+msgid "List Owner First Name."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:52
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:52
+msgid "List Owner Last Name."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:61
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:61
+msgid "Public View URL."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:70
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:70
+msgid "List Owner ID."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:79
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:79
+msgid "List Owner Email."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:89
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:89
+msgid "The list items."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:111
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:111
+msgid "Unique identifier for the post."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:135
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:135
+msgid "Whether to bypass Trash and force deletion."
+msgstr ""
+
+#: classes/class-wc-wishlists-rest-controller.php:250
+#: dist/woocommerce-wishlists/classes/class-wc-wishlists-rest-controller.php:250
+msgid "Sorry, invalid product ID."
+msgstr ""
+
+#: classes/models/class-wc-wishlists-wishlist-item-collection.php:254
+#: dist/woocommerce-wishlists/classes/models/class-wc-wishlists-wishlist-item-collection.php:254
+msgid "List could not be located"
+msgstr ""
+
+#: classes/models/class-wc-wishlists-wishlist-item-collection.php:281
+#: dist/woocommerce-wishlists/classes/models/class-wc-wishlists-wishlist-item-collection.php:281
+msgid "Item has been removed from the list."
+msgstr ""
+
+#: classes/models/class-wc-wishlists-wishlist.php:175
+#: dist/woocommerce-wishlists/classes/models/class-wc-wishlists-wishlist.php:175
+msgid "New List %s"
+msgstr ""
+
+#: classes/models/class-wc-wishlists-wishlist.php:276
+#: dist/woocommerce-wishlists/classes/models/class-wc-wishlists-wishlist.php:276
+msgid "Unable to update list"
+msgstr ""
+
+#: classes/views/admin-notifications.php:2
+#: dist/woocommerce-wishlists/classes/views/admin-notifications.php:2
+msgid "Wishlist Notification Settings"
+msgstr ""
+
+#: dist/woocommerce-wishlists/shortcodes/shortcodes-init.php:268
+#: shortcodes/shortcodes-init.php:268
+msgid "Add to Wishlist"
+msgstr ""
+
+#: dist/woocommerce-wishlists/shortcodes/shortcodes-init.php:278
+#: shortcodes/shortcodes-init.php:278
+msgid "Add %s to Wishlist"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/add-to-wishlist-link.php:12
+#: templates/add-to-wishlist-link.php:12
+msgid "This item is already in one of your wishlists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/add-to-wishlist-modal.php:9
+#: templates/add-to-wishlist-modal.php:9
+msgid "Your Public Lists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/add-to-wishlist-modal.php:19
+#: templates/add-to-wishlist-modal.php:19
+msgid "Your Shared Lists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/add-to-wishlist-modal.php:29
+#: templates/add-to-wishlist-modal.php:29
+msgid "Your Private Lists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/add-to-wishlist-modal.php:39
+#: templates/add-to-wishlist-modal.php:39
+msgid "Create a new list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:45
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:349
+#: templates/create-a-list.php:45 templates/edit-my-list.php:349
+msgid "Name your list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:51
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:355
+#: templates/create-a-list.php:51 templates/edit-my-list.php:355
+msgid "Describe your list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:111
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:417
+#: templates/create-a-list.php:111 templates/edit-my-list.php:417
+msgid "Email Associated with the List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:120
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:425
+#: templates/create-a-list.php:120 templates/edit-my-list.php:425
+msgid "Email Notifications"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:129
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:435
+#: templates/create-a-list.php:129 templates/edit-my-list.php:435
+msgid "Send me an email if a price reduction occurs."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:138
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:444
+#: templates/create-a-list.php:138 templates/edit-my-list.php:444
+msgid "Do not send me an email if a price reduction occurs."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:155
+#: templates/create-a-list.php:155
+msgid "Create List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:165
+#: templates/create-a-list.php:165
+msgid "Unable to add a new list.  Review your existing lists below."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:172
+#: dist/woocommerce-wishlists/templates/find-a-list.php:26
+#: dist/woocommerce-wishlists/templates/my-account-lists.php:7
+#: dist/woocommerce-wishlists/templates/my-lists.php:28
+#: templates/create-a-list.php:172 templates/find-a-list.php:26
+#: templates/my-account-lists.php:7 templates/my-lists.php:28
+msgid "List Name"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:173
+#: dist/woocommerce-wishlists/templates/find-a-list.php:28
+#: dist/woocommerce-wishlists/templates/my-account-lists.php:8
+#: dist/woocommerce-wishlists/templates/my-account-lists.php:25
+#: dist/woocommerce-wishlists/templates/my-lists.php:29
+#: dist/woocommerce-wishlists/templates/view-a-list.php:105
+#: templates/create-a-list.php:173 templates/find-a-list.php:28
+#: templates/my-account-lists.php:8 templates/my-account-lists.php:25
+#: templates/my-lists.php:29 templates/view-a-list.php:105
+msgid "Date Added"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:188
+#: dist/woocommerce-wishlists/templates/my-lists.php:45
+#: templates/create-a-list.php:188 templates/my-lists.php:45
+msgid "Manage this list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:193
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:63
+#: dist/woocommerce-wishlists/templates/my-lists.php:49
+#: templates/create-a-list.php:193 templates/edit-my-list.php:63
+#: templates/my-lists.php:49
+msgid "Are you sure you want to delete this list?"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/create-a-list.php:194
+#: dist/woocommerce-wishlists/templates/my-lists.php:49
+#: templates/create-a-list.php:194 templates/my-lists.php:49
+msgid "Delete"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:50
+#: templates/edit-my-list.php:50
+msgid "Wishlist URL:"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:64
+#: templates/edit-my-list.php:64
+msgid "Delete list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:68
+#: templates/edit-my-list.php:68
+msgid "Preview List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:76
+#: templates/edit-my-list.php:76
+msgid "List Items"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:77
+#: templates/edit-my-list.php:77
+msgid "Settings"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:96
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:300
+#: templates/edit-my-list.php:96 templates/edit-my-list.php:300
+msgid "Update Quantities"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:98
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:254
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:302
+#: dist/woocommerce-wishlists/templates/view-a-list.php:259
+#: dist/woocommerce-wishlists/templates/view-a-list.php:265
+#: dist/woocommerce-wishlists/templates/view-a-list.php:269
+#: templates/edit-my-list.php:98 templates/edit-my-list.php:254
+#: templates/edit-my-list.php:302 templates/view-a-list.php:259
+#: templates/view-a-list.php:265 templates/view-a-list.php:269
+msgid "Add to Cart"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:99
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:303
+#: templates/edit-my-list.php:99 templates/edit-my-list.php:303
+msgid "Update Quantities and Add to Cart"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:101
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:305
+#: templates/edit-my-list.php:101 templates/edit-my-list.php:305
+msgid "Remove from List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:102
+#: templates/edit-my-list.php:102
+msgid "Move to another List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:113
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:317
+#: templates/edit-my-list.php:113 templates/edit-my-list.php:317
+msgid "+ Create A New List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:117
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:322
+#: templates/edit-my-list.php:117 templates/edit-my-list.php:322
+msgid "Apply Action"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:130
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:180
+#: dist/woocommerce-wishlists/templates/my-account-lists.php:18
+#: dist/woocommerce-wishlists/templates/view-a-list.php:148
+#: dist/woocommerce-wishlists/templates/view-a-list.php:188
+#: templates/edit-my-list.php:130 templates/edit-my-list.php:180
+#: templates/my-account-lists.php:18 templates/view-a-list.php:148
+#: templates/view-a-list.php:188
+msgid "Product"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:131
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:208
+#: dist/woocommerce-wishlists/templates/view-a-list.php:149
+#: dist/woocommerce-wishlists/templates/view-a-list.php:215
+#: templates/edit-my-list.php:131 templates/edit-my-list.php:208
+#: templates/view-a-list.php:149 templates/view-a-list.php:215
+msgid "Price"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:163
+#: templates/edit-my-list.php:163
+msgid "Remove this item from your wishlist"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:164
+#: templates/edit-my-list.php:164
+msgid "Are you sure you would like to remove this item from your list?"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:223
+#: dist/woocommerce-wishlists/templates/view-a-list.php:230
+#: templates/edit-my-list.php:223 templates/view-a-list.php:230
+msgid "Quantity"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:285
+#: dist/woocommerce-wishlists/templates/view-a-list.php:293
+#: templates/edit-my-list.php:285 templates/view-a-list.php:293
+msgid "Add All To Cart"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:306
+#: templates/edit-my-list.php:306
+msgid "Move to another list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:334
+#: templates/edit-my-list.php:334
+msgid "You do not have anything in this list."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:335
+#: templates/edit-my-list.php:335
+msgid "Go Shopping"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:455
+#: dist/woocommerce-wishlists/templates/my-lists.php:76
+#: templates/edit-my-list.php:455 templates/my-lists.php:76
+msgid "Save Changes"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/emails/plain/wishlist-email-share-list.php:6
+#: dist/woocommerce-wishlists/templates/emails/wishlist-email-share-list.php:6
+#: templates/emails/plain/wishlist-email-share-list.php:6
+#: templates/emails/wishlist-email-share-list.php:6
+msgid "Someone"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/emails/plain/wishlist-email-share-list.php:10
+#: dist/woocommerce-wishlists/templates/emails/wishlist-email-share-list.php:15
+#: templates/emails/plain/wishlist-email-share-list.php:10
+#: templates/emails/wishlist-email-share-list.php:15
+msgid "%s has a wishlist to share on <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/emails/plain/wishlist-email-share-list.php:15
+#: templates/emails/plain/wishlist-email-share-list.php:15
+msgid ""
+"You can view this list by clicking on the link or copy and pasting it into "
+"your browser. <br/>View List: <a href=\\\"%s\\\">%s</a>"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/emails/plain/wishlist-email-verification.php:2
+#: dist/woocommerce-wishlists/templates/emails/wishlist-email-verification.php:11
+#: templates/emails/plain/wishlist-email-verification.php:2
+#: templates/emails/wishlist-email-verification.php:11
+msgid ""
+"We received your request to add your email to your wishlist. Before we "
+"begin using this email address, we want to be certain we have your "
+"permission. Confirm by visiting this link in your browser %s"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/emails/plain/wishlist-email-verification.php:3
+#: dist/woocommerce-wishlists/templates/emails/wishlist-email-verification.php:12
+#: templates/emails/plain/wishlist-email-verification.php:3
+#: templates/emails/wishlist-email-verification.php:12
+msgid "If you did not make this request you can safely ignore this email."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/emails/wishlist-email-share-list.php:42
+#: templates/emails/wishlist-email-share-list.php:42
+msgid ""
+"You can view this list by clicking on the link or copy and pasting it into "
+"your browser. <br/>View List: <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:13
+#: templates/find-a-list.php:13
+msgid "Find Someone's List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:14
+#: templates/find-a-list.php:14
+msgid "Enter name or email"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:15
+#: templates/find-a-list.php:15
+msgid "Search"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:21
+#: templates/find-a-list.php:21
+msgid "We've found %s lists matching <strong>%s</strong>"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:21
+#: templates/find-a-list.php:21
+msgid "<a class=\"wl-clear-results\" href=\"%s\">Clear Results</a>"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:27
+#: templates/find-a-list.php:27
+msgid "Name"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:48
+#: templates/find-a-list.php:48
+msgid ""
+"We're sorry, we couldn't find a list for that name. Please double check "
+"your entry and try again."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/find-a-list.php:49
+#: templates/find-a-list.php:49
+msgid "We found 0 matching lists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/guest-disabled.php:3
+#: templates/guest-disabled.php:3
+msgid "Please logon or register for an account to create and manage wishlists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/my-account-lists.php:26
+#: templates/my-account-lists.php:26
+msgid "Privacy"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/my-lists.php:14
+#: templates/my-lists.php:14
+msgid "Create a New List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/my-lists.php:85
+#: templates/my-lists.php:85
+msgid "You have not created any lists yet."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/my-lists.php:86
+#: templates/my-lists.php:86
+msgid "Go shopping to create one."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/price-change-email.php:3
+#: templates/price-change-email.php:3
+msgid "Price drop alert from %s. Items below have been reduced in price:"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/price-change-email.php:7
+#: templates/price-change-email.php:7
+msgid "New Low Price For: %s"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:60
+#: templates/view-a-list.php:60
+msgid "Unable to locate the requested list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:72
+#: templates/view-a-list.php:72
+msgid "Return to your view"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:72
+#: templates/view-a-list.php:72
+msgid "This is how other people will see your Wish List"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:98
+#: templates/view-a-list.php:98
+msgid "Sort by:"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:99
+#: templates/view-a-list.php:99
+msgid "In Category:"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:106
+#: templates/view-a-list.php:106
+msgid "Price (High to Low)"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:107
+#: templates/view-a-list.php:107
+msgid "Price (Low to High)"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:115
+#: templates/view-a-list.php:115
+msgid "All"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:123
+#: templates/view-a-list.php:123
+msgid "Go"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:304
+#: templates/view-a-list.php:304
+msgid "This list currently contains no items."
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/view-a-list.php:305
+#: templates/view-a-list.php:305
+msgid "Back to find a list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/wishlist-sharing-menu.php:27
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:729
+#: templates/wishlist-sharing-menu.php:27 woocommerce-wishlists.php:729
+msgid "Check out my wishlist at "
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/wishlist-sharing-menu.php:27
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:729
+#: templates/wishlist-sharing-menu.php:27 woocommerce-wishlists.php:729
+msgid "Found an interesting list of products at "
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/wishlist-sharing-menu.php:47
+#: templates/wishlist-sharing-menu.php:47
+msgid "Share with Friends"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/wishlist-sharing-menu.php:65
+#: templates/wishlist-sharing-menu.php:65
+msgid "Pin It on Pinterest!"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:57
+#: woocommerce-wishlists-api.php:57
+msgid "This list has been automatically created for you."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:60
+#: woocommerce-wishlists-api.php:60
+msgid "A list has been created for you. <a href=\"%s\">Manage list</a> "
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:68
+#: woocommerce-wishlists-api.php:68
+msgid ""
+"A temporary list has been created for you. <a href=\"%1$s\">Login</a> or <a "
+"href=\"%2$s\">register for an account</a> to save this list for future use. "
+" You may access this temporary list for up to 30 days or until you clear "
+"your browser history."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:80
+#: woocommerce-wishlists-api.php:80
+msgid "Unable to locate or create a list for you.  Please try again later"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:111
+#: woocommerce-wishlists-api.php:111
+msgid "Please choose a product&hellip;"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:160
+#: woocommerce-wishlists-api.php:160
+msgid "%s Items ready to move to a new list"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:164
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:659
+#: woocommerce-wishlists-api.php:164 woocommerce-wishlists.php:659
+msgid "Cancel"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:200
+#: woocommerce-wishlists-api.php:200
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:228
+#: woocommerce-wishlists-api.php:228
+msgid "Invalid value posted for %s"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:235
+#: woocommerce-wishlists-api.php:235
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:252
+#: woocommerce-wishlists-api.php:252
+msgid ""
+"There was a problem adding this item to your list.  Please review and try "
+"again."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:298
+#: woocommerce-wishlists-api.php:298
+msgid "Please choose the quantity of items you wish to add to your list&hellip;"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:300
+#: woocommerce-wishlists-api.php:300
+msgid ""
+"There was a problem adding items to your wishlist.  Please review and try "
+"again.&hellip;"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:307
+#: woocommerce-wishlists-api.php:307
+msgid "Please choose a product to add to your list&hellip;"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:317
+#: woocommerce-wishlists-api.php:317
+msgid "Continue Shopping &rarr;"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:317
+#: woocommerce-wishlists-api.php:317
+msgid "Product successfully added to your wishlist."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:323
+#: woocommerce-wishlists-api.php:323
+msgid "Product successfully added to %s."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:324
+#: woocommerce-wishlists-api.php:324
+msgid "Manage Wishlist &rarr;"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:358
+#: woocommerce-wishlists-api.php:358
+msgid "Unable to share a private list."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:388
+#: woocommerce-wishlists-api.php:388
+msgid "Your email has been sent"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:390
+#: dist/woocommerce-wishlists/woocommerce-wishlists-api.php:392
+#: woocommerce-wishlists-api.php:390 woocommerce-wishlists-api.php:392
+msgid "Unable to send mail.  Please check your values and try again."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:44
+#: woocommerce-wishlists-functions.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older lists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:45
+#: woocommerce-wishlists-functions.php:45
+msgid "Newer lists <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:220
+#: woocommerce-wishlists-functions.php:220
+msgid "Share this list via e-mail "
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:225
+#: woocommerce-wishlists-functions.php:225
+msgid "Your name:"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:230
+#: woocommerce-wishlists-functions.php:230
+msgid "To:"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:232
+#: woocommerce-wishlists-functions.php:232
+msgid "Type in e-mail addresses: jo@example.com, jan@example.com."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:235
+#: woocommerce-wishlists-functions.php:235
+msgid "Add a note:"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists-functions.php:247
+#: woocommerce-wishlists-functions.php:247
+msgid "Send email"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:268
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:277
+#: woocommerce-wishlists.php:268 woocommerce-wishlists.php:277
+msgid "Please select a list first"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:300
+#: woocommerce-wishlists.php:300
+msgid "Are you sure?"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:301
+#: woocommerce-wishlists.php:301
+msgid "How Many Would You Like to Add?"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:503
+#: woocommerce-wishlists.php:503
+msgid "Add Wishlist"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:504
+#: woocommerce-wishlists.php:504
+msgid "Add New Wishlist"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:506
+#: woocommerce-wishlists.php:506
+msgid "Edit Wishlist"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:507
+#: woocommerce-wishlists.php:507
+msgid "New Wishlist"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:510
+#: woocommerce-wishlists.php:510
+msgid "Search Wishlists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:511
+#: woocommerce-wishlists.php:511
+msgid "No Wishlists found"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:512
+#: woocommerce-wishlists.php:512
+msgid "No Wishlists found in trash"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:513
+#: woocommerce-wishlists.php:513
+msgid "Parent Wishlists"
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:515
+#: woocommerce-wishlists.php:515
+msgid "This is where customer wishlists are stored."
+msgstr ""
+
+#: dist/woocommerce-wishlists/woocommerce-wishlists.php:661
+#: woocommerce-wishlists.php:661
+msgid ""
+"You have %s items ready to move to a new list.  <a href=\"%s\">Create a "
+"list</a>"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce WishLists"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/woocommerce-wishlists/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WooCommerce Wishlists allows you to create public and personal wishlists."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Element Stark"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.elementstark.com"
+msgstr ""
+
+#: dist/woocommerce-wishlists/templates/edit-my-list.php:234
+#: dist/woocommerce-wishlists/templates/view-a-list.php:241
+#: templates/edit-my-list.php:234 templates/view-a-list.php:241
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""

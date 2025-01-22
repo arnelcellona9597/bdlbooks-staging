@@ -1,0 +1,20 @@
+/* Styles for admin page */
+
+
+
+/* Submit button */
+/* .options .submit { */
+.submit {
+    position: sticky !important;
+    bottom: 1px;
+    float: right; 
+}
+
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
