@@ -1,0 +1,15 @@
+@media screen and ( max-width: 450px ) {
+    .top-header {
+        display:  none !important;
+    }
+}
+
+@media screen and (min-width: 1025px ) {
+   #masthead #menu-item-9589 {
+        display: none;
+    }
+}
+.m-menu-burger-icons svg {
+    height: 20px;
+    margin-right: 25px;
+}

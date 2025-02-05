@@ -1,0 +1,10 @@
+body {
+    --primary: #D11E47;
+    --primary_hover: #D11E47;
+
+}
+
+.elementor-kit-26  {
+    --e-global-color-primary: #D11E47;
+    --e-global-color-primary_hover: #D11E47;
+}

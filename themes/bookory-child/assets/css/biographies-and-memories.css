@@ -1,0 +1,13 @@
+.section-biographies-and-memories ul.slick-dots {
+    bottom: unset;
+    top: -77px;
+}
+
+.section-biographies-and-memories  .count-review {
+    display: none;
+}
+
+.section-biographies-and-memories img {
+    min-height: 292px;
+    object-fit: cover;
+ }

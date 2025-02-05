@@ -1,0 +1,82 @@
+.section-featured-books .count-review {
+    display: none;
+}
+.section-featured-books ul.products li.product h3, ul.products li.product .woocommerce-loop-product__title {
+    -webkit-line-clamp: 2;
+}
+
+.section-featured-books  .elementor-widget-bookory-products .layout-carousel-center .woocommerce-carousel .slick-list .slick-slide li.product .product-block:before {
+    background-color: transparent;
+}
+
+.section-featured-books  ul.products li.product, 
+.section-featured-books  ul.products .wc-block-grid__product, 
+.section-featured-books  .wc-block-grid__products li.product, 
+.section-featured-books  .wc-block-grid__products .wc-block-grid__product {
+    border-right: 0;
+}
+
+.section-featured-books .slick-slide.slick-active{
+    margin-top: 50px;
+}
+.section-featured-books .slick-slide.slick-current.slick-active{
+    margin-top: 0;
+}
+.section-featured-books .slick-slide.slick-active li img {
+    height: 232px;
+    max-width: 166px;
+    width: 100%;
+    border-radius: 7px;
+}
+.section-featured-books .slick-slide.slick-current.slick-active li img {
+    height: 316px;
+    max-width: 226px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.section-featured-books .product-caption {
+    max-width: 166px;
+    margin: auto;
+}
+.section-featured-books h3{
+    max-width: 138px;
+}
+
+
+@media screen and (max-width: 767px ) {
+    .section-featured-books .slick-slide.slick-current.slick-active li img {
+        height: 232px;
+        max-width: 166px;
+    }
+    .section-featured-books .slick-slide.slick-active{
+        margin-top: 0;
+    }
+    .section-deals-of-the-week .left .menu-thumb img {
+        max-width: 85px;
+        height: 117px;
+        min-height: 117px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px ) {
+    /* .section-featured-books  .slick-slide {
+        max-width: 200px;
+    } */
+    .section-featured-books .slick-slide.slick-current.slick-active li img,
+    .section-featured-books .slick-slide.slick-active li img {
+        height: 203px;
+    }
+
+    .section-featured-books .slick-slide.slick-current.slick-active {
+        border-right: 1px solid #E6E6E6;
+    }
+
+    .section-featured-books   .slick-list{
+        overflow-y: hidden;
+        height: 365px;
+    }
+    
+
+}

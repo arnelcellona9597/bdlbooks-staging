@@ -1,0 +1,20 @@
+.section-childrens-books ul.products li .product-block {
+    max-width: 209px;
+    margin: auto;
+}
+
+.section-childrens-books ul.products img {
+    min-height: 292px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.section-childrens-books   .count-review {
+    display: none;
+}
+
+.section-childrens-books ul.slick-dots {
+    bottom: unset;
+    top: -77px;
+}

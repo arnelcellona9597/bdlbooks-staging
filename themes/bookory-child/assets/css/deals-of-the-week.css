@@ -1,0 +1,15 @@
+.section-deals-of-the-week .left .menu-thumb img {
+    min-height: 182px;
+}
+
+.section-deals-of-the-week  .count-review {
+    display: none;
+}
+
+.section-deals-of-the-week .right  {
+    max-width: 100px;
+}
+
+.section-deals-of-the-week .elementor-widget-bookory-products .product-block-list.product-block-list-1 {
+    border-bottom: 0;
+}

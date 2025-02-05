@@ -1,2 +1,0 @@
-<?php exit; ?>
-{"7e183f1e330ac8121e3973596e10ca9f":{"expires":1737552558,"size":485,"file":"7e183f1e330ac8121e3973596e10ca9f.php","created":1737548958,"lifespan":3600,"hash":"885da61f"},"7e9fdeb661cdec2a38faccd2dc507708":{"expires":1737648638,"size":485,"file":"7e9fdeb661cdec2a38faccd2dc507708.php","created":1737645038,"lifespan":3600,"hash":"885da61f"},"7ed295590c1d9c108f26a0a063f9bb1c":{"expires":1737649373,"size":485,"file":"7ed295590c1d9c108f26a0a063f9bb1c.php","created":1737645773,"lifespan":3600,"hash":"885da61f"}}

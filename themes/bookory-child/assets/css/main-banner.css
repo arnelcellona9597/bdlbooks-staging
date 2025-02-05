@@ -1,0 +1,9 @@
+#SR7_1_1 .uranus .sr7-bullet.selected, 
+#SR7_1_1 .uranus .sr7-bullet.sr7-touchhover {
+    box-shadow: 0 0 0 2px #D11E47;
+}
+
+#SR7_1_1 .uranus .sr7-bullet.selected .sr7-bullet-inner, 
+#SR7_1_1 .uranus .sr7-bullet.sr7-touchhover .sr7-bullet-inner {
+    background-color: #D11E47;
+}

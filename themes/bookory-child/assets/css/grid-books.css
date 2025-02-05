@@ -1,0 +1,19 @@
+.section-grid-books ul.products li.product .product-block {
+    max-width: 171px;
+    margin: auto;
+}
+
+.section-grid-books ul.products li.product .product-block img {
+    height: 239px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section-grid-books   .count-review {
+    display: none;
+}
+
+.section-grid-books  ul.products li.product h3 a, ul.products li.product .woocommerce-loop-product__title a {
+    max-width: 90px;
+    display: block;
+}

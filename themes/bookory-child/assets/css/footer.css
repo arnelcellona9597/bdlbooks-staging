@@ -1,0 +1,18 @@
+.section-footer-main {
+    filter: drop-shadow(0px -2px 5px rgba(0, 0, 0, 0.25) );
+}
+.section-footer-main a {
+    color: #fff; 
+}
+
+.section-footer-main .fm-left a {
+    text-decoration: underline;
+}
+
+.section-footer-bottom p {
+    margin-bottom: 0;
+}
+.footer-cards img {
+    margin-left: auto;
+    margin-right: auto;
+}

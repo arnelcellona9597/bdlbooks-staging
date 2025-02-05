@@ -1,0 +1,61 @@
+.archive .count-review {
+    display: none;
+}
+
+.woocommerce-shop .bookory-products.products.columns-6 {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.woocommerce-shop .bookory-products.products.columns-6 li.product {
+    flex: 0 0 16.63%;
+    max-width: 16.63%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.woocommerce-shop .bookory-products.products.columns-6 li.product img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.woocommerce-shop #primary {
+    width: calc(100% - 295px);
+}
+
+.woocommerce-shop  #secondary {
+    max-width: 262px;
+}
+
+ 
+@media screen and (max-width: 1440px) {
+    .woocommerce-shop .bookory-products.products.columns-6 li.product{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    /* .woocommerce-shop .bookory-products.products.columns-6 li.product{
+        flex: 0 0 25%;
+        max-width: 25%;
+    } */
+}
+
+@media screen and (max-width: 1023px) { 
+    .woocommerce-shop #primary {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .woocommerce-shop .bookory-products.products.columns-6 li.product{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .woocommerce-shop .bookory-products.products.columns-6 li.product img {
+        height: 203px;
+    }
+}
